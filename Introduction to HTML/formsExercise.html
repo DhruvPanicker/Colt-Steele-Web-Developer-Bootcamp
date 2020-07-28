@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Exercise Assignment 4</title>
+    <h1>Register</h1>
+</head>
+<body>
+<form action =http://wikipedia.org" method="GET" >
+    <form> 
+        <label for = "First Name"> First Name:</label>
+        <input name="First Name"id = "First Name" type = "text" placeholder = "John" required>
+        <label for = "Last Name"> Last Name:</label>
+        <input name="Last Name"id = "Last Name"type = "text" placeholder="Smith" required>
+    
+    <div>
+    
+        <label for ="Male">Male :</label>
+        <input name="Gender" id = "Male" type = "radio" value="Male">
+        <label for ="Female">Female :</label>
+        <input name="Gender" id ="Female" type = "radio" value="Female">
+        <label for = "Other">Other</label>
+        <input name= "Gender" id = "Other" type = "radio" value="Other" >
+    
+    </div>
+    <label>
+        Email : <input name = "email" type = "email" placeholder = "your email" required>
+    </label>
+    <label>
+        Password : <input name="password" type = "password" pattern=".{5,10}" required title ="5 to 10 characters" >
+    </label>
+    
+    <div>
+    <label>Birthday:
+        
+        <select name = "month">
+           <option>Month</option>
+           <option>Jan</option> 
+           <option>Feb</option> 
+           <option>March</option> 
+        </select>
+        <select name= "day">
+            <option>Day</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+        </select>
+        <select name ="year">
+            <option>Year</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+        </select>
+    </label>
+        </div>
+    <div>
+    <label for = "agreement">I agree to the terms and conditions </label>
+        
+        <input  id = "agreement" type = "checkbox" name="agreement">
+    </div>
+<div>
+    <input type = "submit">
+</div>
+</form>
+</body>
+</html>
