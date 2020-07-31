@@ -1,0 +1,18 @@
+/*selector{property:value;}*/
+h1{
+    color: purple;
+    border: 5px solid goldenrod; /*pixels style color*/
+}
+h4{
+    color:#FF4066;
+    background: rgb(99, 85, 00) ;
+}
+li{
+    color: rgb(255, 125, 2)  ;
+}
+body{
+    /* background:url(https://lh3.googleusercontent.com/proxy/Bc957W8IxtTbP6ymxa2qO1-cqRHHfU2k9DMiCTLnl8RIL8peh493MFu2hf2pmpTvCFKOY-ANYICVmw5T7GMU);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: pink;
+}
